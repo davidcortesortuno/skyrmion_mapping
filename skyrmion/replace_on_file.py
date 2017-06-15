@@ -44,7 +44,7 @@ preamble_text = textwrap.dedent("""
     // Radiosity is important for better shadows
     global_settings {
           max_trace_level 30
-          assumed_gamma 1.3
+          assumed_gamma 1.5
           radiosity { count 200 25000
                       error_bound 1.2 //start here and decrease slowly until splotchiness disappears
                       nearest_count 10 //or higher, up to 20
